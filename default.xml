@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="gitlab" fetch="ssh://git@gitlab.incom.co/CM-Shield/" revision="lineage-15.1" />
+
+	<default revision="lineage-15.1" remote="gitlab" sync-j="9" />
+
+	<project name="manifest.git" path="manifest" />
+
+	<project name="android_device_nvidia_shield-common.git" path="device/nvidia/shield-common" />
+	<project name="android_device_nvidia_roth.git" path="device/nvidia/roth" />
+	<project name="android_device_nvidia_shieldtablet.git" path="device/nvidia/shieldtablet" />
+	<project name="android_device_nvidia_jetson.git" path="device/nvidia/jetson" />
+	<project name="android_device_nvidia_foster.git" path="device/nvidia/foster" />
+	<project name="android_device_nvidia_t40s.git" path="device/nvidia/t40s" />
+	<project name="android_device_nvidia_loki.git" path="device/nvidia/loki" />
+	<project name="android_device_nvidia_hawkeye.git" path="device/nvidia/hawkeye" />
+
+	<project name="android_kernel_nvidia_roth.git" path="kernel/nvidia/roth" />
+	<project name="android_kernel_nvidia_shield.git" path="kernel/nvidia/shield" />
+	<project name="android_kernel_nvidia_shieldtablet.git" path="kernel/nvidia/shieldtablet" revision="cm-12.1-twrp" />
+
+	<project name="android_hardware_icera_ril.git" path="hardware/icera/ril" />
+
+	<project name="android_hardware_nvidia_power.git" path="hardware/nvidia/power" />
+	<project name="android_hardware_nvidia_thermal.git" path="hardware/nvidia/thermal" />
+	<project name="android_hardware_nvidia_libstagefrighthw.git" path="hardware/nvidia/libstagefrighthw" />
+	<project name="android_hardware_nvidia_sensors.git" path="hardware/nvidia/sensors" />
+
+	<project name="android_packages_inputmethods_NVLatinIME.git" path="packages/inputmethods/NVLatinIME" revision="cm-13.0" />
+
+	<project name="proprietary_vendor_nvidia.git" path="vendor/nvidia" />
+</manifest>
