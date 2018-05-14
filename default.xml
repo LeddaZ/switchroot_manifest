@@ -13,6 +13,7 @@
 	<project name="android_device_nvidia_foster.git" path="device/nvidia/foster" />
 	<project name="android_device_nvidia_t40s.git" path="device/nvidia/t40s" />
 	<project name="android_device_nvidia_loki.git" path="device/nvidia/loki" />
+	<project name="android_device_nvidia_loki_e.git" path="device/nvidia/loki_e" />
 	<project name="android_device_nvidia_hawkeye.git" path="device/nvidia/hawkeye" />
 
 	<project name="android_kernel_nvidia_roth.git" path="kernel/nvidia/roth" />
