@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-16.0" />
+	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-17.1" />
 
 	<project name="CM-Shield/android_device_nintendo_icosa.git" path="device/nintendo/icosa" remote="incom" />
 
