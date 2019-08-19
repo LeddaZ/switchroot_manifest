@@ -2,6 +2,8 @@
 <manifest>
 	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-16.0" />
 
+	<project name="CM-Shield/android_device_nintendo_icosa.git" path="device/nintendo/icosa" remote="incom" />
+
 	<project name="CM-Shield/android_device_nvidia_dalmore.git" path="device/nvidia/dalmore" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_roth.git" path="device/nvidia/roth" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_shieldtablet.git" path="device/nvidia/shieldtablet" remote="incom" />
@@ -35,6 +37,7 @@
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_foster.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/foster" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_fpga.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/fpga" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_hawkeye.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/hawkeye" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_icosa.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/icosa" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_jetson.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/jetson" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_misc.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/misc" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_orca.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/orca" remote="incom" />
