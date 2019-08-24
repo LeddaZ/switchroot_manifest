@@ -63,7 +63,6 @@
 	<project name="CM-Shield/android_hardware_nvidia_memtrack.git" path="hardware/nvidia/memtrack" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_power.git" path="hardware/nvidia/power" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_thermal.git" path="hardware/nvidia/thermal" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_libstagefrighthw.git" path="hardware/nvidia/libstagefrighthw" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_sensors.git" path="hardware/nvidia/sensors" remote="incom" />
 
 	<project name="CM-Shield/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" remote="incom" />
