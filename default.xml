@@ -59,6 +59,8 @@
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_kernel-dts.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/galen/kernel-dts" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t19x.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t19x" remote="incom" />
 
+	<project name="CM-Shield/android_kernel_nvidia_cypress-fmac.git" path="kernel/nvidia/cypress-fmac" remote="incom" />
+
 	<project name="CM-Shield/android_hardware_nvidia_light.git" path="hardware/nvidia/light" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_memtrack.git" path="hardware/nvidia/memtrack" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_power.git" path="hardware/nvidia/power" remote="incom" />
