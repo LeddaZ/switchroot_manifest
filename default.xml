@@ -10,6 +10,7 @@
 	<project name="CM-Shield/android_device_nvidia_jetson.git" path="device/nvidia/jetson" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_foster.git" path="device/nvidia/foster" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_quill.git" path="device/nvidia/quill" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_galen.git" path="device/nvidia/galen" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_foster_tab.git" path="device/nvidia/foster_tab" remote="incom" />
 
 	<project name="CM-Shield/android_device_nvidia_tegra-common.git" path="device/nvidia/tegra-common" remote="incom" />
