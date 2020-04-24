@@ -67,6 +67,7 @@
 
 	<project name="CM-Shield/android_hardware_nintendo_joycond.git" path="hardware/nintendo/joycond" remote="incom" />
 
+	<project name="CM-Shield/android_hardware_nvidia_boot_control.git" path="hardware/nvidia/boot_control" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_interfaces.git" path="hardware/nvidia/interfaces" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_light.git" path="hardware/nvidia/light" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_memtrack.git" path="hardware/nvidia/memtrack" remote="incom" />
