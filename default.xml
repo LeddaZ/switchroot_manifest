@@ -2,6 +2,8 @@
 <manifest>
 	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-17.1" />
 
+	<project name="CM-Shield/android_device_google_dragonshield.git" path="device/google/dragonshield" remote="incom" />
+
 	<project name="CM-Shield/android_device_nintendo_icosa.git" path="device/nintendo/icosa" remote="incom" />
 
 	<project name="CM-Shield/android_device_nvidia_dalmore.git" path="device/nvidia/dalmore" remote="incom" />
@@ -46,6 +48,7 @@
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_orca.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/orca" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_porg.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/porg" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_sim.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/sim" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_smaug.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/smaug" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_vcm.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/vcm" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t210.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t210" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_abca.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/abca" remote="incom" />
