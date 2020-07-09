@@ -16,6 +16,7 @@
 	<project name="CM-Shield/android_device_nvidia_foster_tab.git" path="device/nvidia/foster_tab" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_quill_tab.git" path="device/nvidia/quill_tab" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_galen_tab.git" path="device/nvidia/galen_tab" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_porg.git" path="device/nvidia/porg" remote="incom" />
 
 	<project name="CM-Shield/android_device_nvidia_tegra-common.git" path="device/nvidia/tegra-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_t114-common.git" path="device/nvidia/t114-common" remote="incom" />
