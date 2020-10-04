@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-17.1" />
+	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" revision="lineage-17.1" />
+	<remote name="bylaws" fetch="https://github.com/bylaws/" revision="lineage-17.1" />
 
 	<project name="CM-Shield/android_device_google_dragonshield.git" path="device/google/dragonshield" remote="incom" />
 
@@ -32,8 +34,8 @@
 	<project name="CM-Shield/android_kernel_nvidia_shield.git" path="kernel/nvidia/shield" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_mainline.git" path="kernel/nvidia/mainline" remote="incom" />
 
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_kernel_kernel-4.9.git" path="kernel/nvidia/linux-4.9/kernel/kernel-4.9" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_kernel_nvidia.git" path="kernel/nvidia/linux-4.9/kernel/nvidia" remote="incom" />
+	<project name="kernel/l4t-kernel-4.9.git" path="kernel/nvidia/linux-4.9/kernel/kernel-4.9" remote="switchroot"/>
+	<project name="kernel/l4t-kernel-nvidia.git" path="kernel/nvidia/linux-4.9/kernel/nvidia" remote="switchroot"/>
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_kernel_nvgpu.git" path="kernel/nvidia/linux-4.9/kernel/nvgpu" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_tegra_common.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/tegra/common" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_tegra.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/tegra" remote="incom" />
@@ -43,7 +45,7 @@
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_foster.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/foster" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_fpga.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/fpga" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_hawkeye.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/hawkeye" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_icosa.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/icosa" remote="incom" />
+	<project name="kernel/l4t-platform-t210-switch.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/icosa" remote="switchroot"/>
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_jetson.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/jetson" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_misc.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/misc" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_orca.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/orca" remote="incom" />
@@ -71,7 +73,7 @@
 
 	<project name="CM-Shield/android_external_libevdev.git" path="external/libevdev" remote="incom" />
 
-	<project name="CM-Shield/android_hardware_nintendo_joycond.git" path="hardware/nintendo/joycond" remote="incom" />
+	<project name="joycond.git" path="hardware/nintendo/joycond" remote="bylaws" />
 
 	<project name="CM-Shield/android_hardware_nvidia_boot_control.git" path="hardware/nvidia/boot_control" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_interfaces.git" path="hardware/nvidia/interfaces" remote="incom" />
