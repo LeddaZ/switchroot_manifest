@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-17.1" />
 	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" revision="lineage-17.1" />
-	<remote name="bylaws" fetch="https://github.com/bylaws/" revision="lineage-17.1" />
+	<remote name="danielo" fetch="https://github.com/DanielOgorchock/" revision="master" />
 
 	<project name="CM-Shield/android_device_google_dragonshield.git" path="device/google/dragonshield" remote="incom" />
 
@@ -73,7 +73,7 @@
 
 	<project name="CM-Shield/android_external_libevdev.git" path="external/libevdev" remote="incom" />
 
-	<project name="joycond.git" path="hardware/nintendo/joycond" remote="bylaws" />
+	<project name="joycond.git" path="hardware/nintendo/joycond" remote="danielo" />
 
 	<project name="CM-Shield/android_hardware_nvidia_boot_control.git" path="hardware/nvidia/boot_control" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_interfaces.git" path="hardware/nvidia/interfaces" remote="incom" />
