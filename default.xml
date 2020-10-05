@@ -12,7 +12,7 @@
 	<project name="CM-Shield/android_device_nvidia_roth.git" path="device/nvidia/roth" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_shieldtablet.git" path="device/nvidia/shieldtablet" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_jetson.git" path="device/nvidia/jetson" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_foster.git" path="device/nvidia/foster" remote="incom" />
+	<project name="android/android_device_nvidia_foster" path="device/nvidia/foster" remote="switchroot" />
 	<project name="CM-Shield/android_device_nvidia_quill.git" path="device/nvidia/quill" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_galen.git" path="device/nvidia/galen" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_foster_tab.git" path="device/nvidia/foster_tab" remote="incom" />
@@ -69,7 +69,7 @@
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_jakku_kernel-dts.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/jakku/kernel-dts" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t19x.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t19x" remote="incom" />
 
-	<project name="CM-Shield/android_kernel_nvidia_cypress-fmac.git" path="kernel/nvidia/cypress-fmac" remote="incom" />
+	<project name="kernel/l4t-kernel-cypress-fmac.git" path="kernel/nvidia/cypress-fmac" remote="switchroot" />
 
 	<project name="CM-Shield/android_external_libevdev.git" path="external/libevdev" remote="incom" />
 
