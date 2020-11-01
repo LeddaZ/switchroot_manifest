@@ -25,7 +25,7 @@
 	<project name="CM-Shield/android_device_nvidia_t124-common.git" path="device/nvidia/t124-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_t186-common.git" path="device/nvidia/t186-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_t194-common.git" path="device/nvidia/t194-common" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_t210-common.git" path="device/nvidia/t210-common" remote="incom" />
+	<project name="android/android_device_nvidia_t210-common" path="device/nvidia/t210-common" remote="switchroot" />
 	<project name="CM-Shield/android_device_nvidia_shield-common.git" path="device/nvidia/shield-common" remote="incom" />
 
 	<project name="CM-Shield/android_device_nvidia_icera.git" path="device/nvidia/icera" remote="incom" />
@@ -75,6 +75,8 @@
 	<project name="CM-Shield/android_external_libevdev.git" path="external/libevdev" remote="incom" />
 
 	<project name="joycond.git" path="hardware/nintendo/joycond" remote="danielo" />
+	
+	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO.git" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
 
 	<project name="CM-Shield/android_hardware_nvidia_boot_control.git" path="hardware/nvidia/boot_control" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_interfaces.git" path="hardware/nvidia/interfaces" remote="incom" />

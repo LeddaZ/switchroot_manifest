@@ -1,13 +1,10 @@
 # Switch manifest for LineageOS Quorndog
 
 ### Issues
-* Sensor HAL is missing
 * Display configuration tool is missing
 * Some funky graphics bugs sometimes
 * RSMouse is missing (maybe do in joycond??)
 * Beyonder (SATV Remote App) is broken
-* SC7 isn't entered if joycons are attached
-* WiFi disables itself on sleep wakeup
 
 ### Patching
 Basic:
