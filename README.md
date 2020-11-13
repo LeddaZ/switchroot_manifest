@@ -1,8 +1,8 @@
 # Switch manifest for LineageOS Quorndog
 
 ### Issues
-* Display configuration tool is missing
-* Some funky graphics bugs sometimes
+* Dock is broken
+* We use hacks? for hwc on client target, probably fine
 * RSMouse is missing (maybe do in joycond??)
 * Beyonder (SATV Remote App) is broken
 

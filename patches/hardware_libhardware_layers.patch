@@ -1,0 +1,43 @@
+From 16f716fa46ee39bb2cea0c151a722fd79fcf87f0 Mon Sep 17 00:00:00 2001
+From: Billy Laws <blaws05@gmail.com>
+Date: Fri, 13 Nov 2020 22:48:50 +0000
+Subject: [PATCH] Add Nvidia custom layer support
+
+---
+ include/hardware/hwcomposer2.h | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/include/hardware/hwcomposer2.h b/include/hardware/hwcomposer2.h
+index c70aef64..8cbb1858 100644
+--- a/include/hardware/hwcomposer2.h
++++ b/include/hardware/hwcomposer2.h
+@@ -290,6 +290,8 @@ typedef enum {
+      * layer would be. The client may ignore this request if the layer must be
+      * blended. */
+     HWC2_LAYER_REQUEST_CLEAR_CLIENT_TARGET = 1 << 0,
++    HWC2_LAYER_REQUEST_HINT_COMPOSITION_DEVICE_OVERLAY = 1 << 1,
++    HWC2_LAYER_REQUEST_HINT_LOW_LATENCY = 1 << 2,
+ } hwc2_layer_request_t;
+ 
+ /* Power modes for use with setPowerMode */
+@@ -610,6 +612,8 @@ static inline const char* getLayerRequestName(hwc2_layer_request_t request) {
+     switch (__BIONIC_CAST(static_cast, int, request)) {
+         case 0: return "None";
+         case HWC2_LAYER_REQUEST_CLEAR_CLIENT_TARGET: return "ClearClientTarget";
++        case HWC2_LAYER_REQUEST_HINT_COMPOSITION_DEVICE_OVERLAY: return "HintCompositionDeviceOverlay";
++        case HWC2_LAYER_REQUEST_HINT_LOW_LATENCY: return "HintLowLatency";
+         default: return "Unknown";
+     }
+ }
+@@ -851,6 +855,8 @@ TO_STRING(hwc2_function_descriptor_t, FunctionDescriptor,
+ 
+ enum class LayerRequest : int32_t {
+     ClearClientTarget = HWC2_LAYER_REQUEST_CLEAR_CLIENT_TARGET,
++    HintCompositionDeviceOverlay = HWC2_LAYER_REQUEST_HINT_COMPOSITION_DEVICE_OVERLAY,
++    HintLowLatency = HWC2_LAYER_REQUEST_HINT_LOW_LATENCY,
+ };
+ TO_STRING(hwc2_layer_request_t, LayerRequest, getLayerRequestName)
+ 
+-- 
+2.28.0
+
