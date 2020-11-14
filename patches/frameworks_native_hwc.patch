@@ -1,4 +1,4 @@
-From 2bab72af3ef8f5c8cbc3132c645ad56efe2f99b3 Mon Sep 17 00:00:00 2001
+From 03ff918235ff34a9d8e18c383a6bb556ed7b82b7 Mon Sep 17 00:00:00 2001
 From: Billy Laws <blaws05@gmail.com>
 Date: Fri, 13 Nov 2020 22:46:54 +0000
 Subject: [PATCH] Force client composition when requested by nvidia custom
@@ -41,18 +41,10 @@ index b78e9e007..d55654361 100644
      Rect displayFrame;
  
 diff --git a/services/surfaceflinger/DisplayHardware/HWComposer.cpp b/services/surfaceflinger/DisplayHardware/HWComposer.cpp
-index 1099041b4..46fc00235 100644
+index 1099041b4..e6eff4880 100644
 --- a/services/surfaceflinger/DisplayHardware/HWComposer.cpp
 +++ b/services/surfaceflinger/DisplayHardware/HWComposer.cpp
-@@ -479,6 +479,7 @@ status_t HWComposer::prepare(DisplayId displayId, const compositionengine::Outpu
-         switch ((*state.hwc).hwcCompositionType) {
-             case Hwc2::IComposerClient::Composition::CLIENT:
-                 displayData.hasClientComposition = true;
-+                ALOGE("P");
-                 break;
-             case Hwc2::IComposerClient::Composition::DEVICE:
-             case Hwc2::IComposerClient::Composition::SOLID_COLOR:
-@@ -491,13 +492,31 @@ status_t HWComposer::prepare(DisplayId displayId, const compositionengine::Outpu
+@@ -491,13 +491,32 @@ status_t HWComposer::prepare(DisplayId displayId, const compositionengine::Outpu
          }
  
          state.clearClientTarget = false;
@@ -81,6 +73,7 @@ index 1099041b4..46fc00235 100644
 +                ALOGE_IF(error != HWC2::Error::None,
 +                         "Failed to set client composition for overlay: (%d)",
 +                         static_cast<int32_t>(error));
++                displayData.hasClientComposition = true;
 +            }
 +
 +            if ((static_cast<uint32_t>(request) & static_cast<uint32_t>(HWC2::LayerRequest::HintLowLatency)) == static_cast<uint32_t>(HWC2::LayerRequest::HintLowLatency)) {
