@@ -20,7 +20,7 @@
 	<project name="CM-Shield/android_device_nvidia_galen_tab.git" path="device/nvidia/galen_tab" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_porg.git" path="device/nvidia/porg" remote="incom" />
 
-	<project name="CM-Shield/android_device_nvidia_tegra-common.git" path="device/nvidia/tegra-common" remote="incom" />
+	<project name="android/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" remote="switchroot" />
 	<project name="CM-Shield/android_device_nvidia_t114-common.git" path="device/nvidia/t114-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_t124-common.git" path="device/nvidia/t124-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_t186-common.git" path="device/nvidia/t186-common" remote="incom" />
