@@ -1,0 +1,20 @@
+diff --git a/services/inputflinger/InputReader.cpp b/services/inputflinger/InputReader.cpp
+index 6781b3a43..fb858339a 100644
+--- a/services/inputflinger/InputReader.cpp
++++ b/services/inputflinger/InputReader.cpp
+@@ -2615,15 +2615,7 @@ void CursorInputMapper::configure(nsecs_t when,
+             mParameters.mode = Parameters::MODE_POINTER;
+             [[fallthrough]];
+         case Parameters::MODE_POINTER:
+-#ifdef NV_ANDROID_FRAMEWORK_ENHANCEMENTS
+-            if (InputHook::getInstance() != NULL && InputHook::getInstance()->treatMouseAsTouch()) {
+-                mSource = AINPUT_SOURCE_TOUCHSCREEN;
+-            } else {
+-                mSource = AINPUT_SOURCE_MOUSE;
+-            }
+-#else
+             mSource = AINPUT_SOURCE_MOUSE;
+-#endif
+             mXPrecision = 1.0f;
+             mYPrecision = 1.0f;
+             mXScale = 1.0f;

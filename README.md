@@ -6,7 +6,7 @@
 
 ### Patching
 Basic:
-* Repopick the `nvidia-enhancements-q`, `nvidia-nvgpu-q`, `icosa-bt-lineage-17.1`, `nvidia-beyonder-q` topics off of lineage gerrit.
+* Repopick the `nvidia-enhancements-q`, `icosa-bt-lineage-17.1`, `nvidia-shieldtech-q`, `nvidia-beyonder-q` topics off of lineage gerrit.
 * Also repopick `287339` and `284553`.
 * Apply all patches to their respective directories (from patches folder).
 
