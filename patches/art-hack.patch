@@ -1,0 +1,18 @@
+diff --git a/Android.mk b/Android.mk
+index bebe759670..2e1d21222d 100644
+--- a/Android.mk
++++ b/Android.mk
+@@ -342,12 +342,7 @@ include $(CLEAR_VARS)
+ # - if `PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD` is set to `true`, the
+ #   build will include the debug module (whatever the build variant).
+ 
+-art_target_include_debug_build := $(PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD)
+-ifneq (false,$(art_target_include_debug_build))
+-  ifneq (,$(filter userdebug eng,$(TARGET_BUILD_VARIANT)))
+-    art_target_include_debug_build := true
+-  endif
+-endif
++art_target_include_debug_build := false
+ ifeq (true,$(art_target_include_debug_build))
+   # Module with both release and debug variants, as well as
+   # additional tools.
