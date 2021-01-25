@@ -1,0 +1,13 @@
+diff --git a/services/core/java/com/android/server/wm/WindowManagerService.java b/services/core/java/com/android/server/wm/WindowManagerService.java
+index fa517fd0791..25514e94f1e 100644
+--- a/services/core/java/com/android/server/wm/WindowManagerService.java
++++ b/services/core/java/com/android/server/wm/WindowManagerService.java
+@@ -1129,7 +1129,7 @@ public class WindowManagerService extends IWindowManager.Stub
+                 Settings.Global.ANIMATOR_DURATION_SCALE, mAnimatorDurationScaleSetting));
+ 
+         mForceDesktopModeOnExternalDisplays = Settings.Global.getInt(resolver,
+-                DEVELOPMENT_FORCE_DESKTOP_MODE_ON_EXTERNAL_DISPLAYS, 0) != 0;
++                DEVELOPMENT_FORCE_DESKTOP_MODE_ON_EXTERNAL_DISPLAYS, 1) != 0;
+ 
+         IntentFilter filter = new IntentFilter();
+         // Track changes to DevicePolicyManager state so we can enable/disable keyguard.
