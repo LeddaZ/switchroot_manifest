@@ -1,0 +1,33 @@
+diff --git a/gatekeeperd/gatekeeperd.cpp b/gatekeeperd/gatekeeperd.cpp
+index 54518193d..aa79a9a7a 100644
+--- a/gatekeeperd/gatekeeperd.cpp
++++ b/gatekeeperd/gatekeeperd.cpp
+@@ -61,13 +61,13 @@ class GateKeeperProxy : public BnGateKeeperService {
+ public:
+     GateKeeperProxy() {
+         clear_state_if_needed_done = false;
+-        hw_device = IGatekeeper::getService();
++//        hw_device = IGatekeeper::getService();
+         is_running_gsi = android::base::GetBoolProperty(android::gsi::kGsiBootedProp, false);
+ 
+-        if (hw_device == nullptr) {
++//        if (hw_device == nullptr) {
+             ALOGW("falling back to software GateKeeper");
+             soft_device.reset(new SoftGateKeeperDevice());
+-        }
++//        }
+     }
+ 
+     virtual ~GateKeeperProxy() {
+diff --git a/init/util.cpp b/init/util.cpp
+index 63d2d4442..623eeb05a 100644
+--- a/init/util.cpp
++++ b/init/util.cpp
+@@ -453,6 +453,7 @@ static void InitAborter(const char* abort_message) {
+ // access any fds that it opens, including the one opened below for /dev/null.  Therefore,
+ // SetStdioToDevNull() must be called again in second stage init.
+ void SetStdioToDevNull(char** argv) {
++	printf("ap[ppppo\n");
+     // Make stdin/stdout/stderr all point to /dev/null.
+     int fd = open("/dev/null", O_RDWR);
+     if (fd == -1) {
