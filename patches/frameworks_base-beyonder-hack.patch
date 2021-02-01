@@ -1,0 +1,35 @@
+From 276e4472dd20b52739f4f137128ae80d2290d4fb Mon Sep 17 00:00:00 2001
+From: Billy Laws <blaws05@gmail.com>
+Date: Mon, 1 Feb 2021 18:29:34 +0000
+Subject: [PATCH] HACK: Allow beyonder IME selection to work by default
+
+P lacks the validation code so we need to remove here to prevent
+beyonder failing.
+---
+ core/java/android/view/inputmethod/InputMethodManager.java | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/core/java/android/view/inputmethod/InputMethodManager.java b/core/java/android/view/inputmethod/InputMethodManager.java
+index 09e365e8e35..6452e08df36 100644
+--- a/core/java/android/view/inputmethod/InputMethodManager.java
++++ b/core/java/android/view/inputmethod/InputMethodManager.java
+@@ -2383,7 +2383,7 @@ public final class InputMethodManager {
+                     != PackageManager.PERMISSION_GRANTED) {
+                 return;
+             }
+-            final List<InputMethodInfo> imis = getEnabledInputMethodList();
++ /*           final List<InputMethodInfo> imis = getEnabledInputMethodList();
+             final int numImis = imis.size();
+             boolean found = false;
+             for (int i = 0; i < numImis; ++i) {
+@@ -2402,6 +2402,7 @@ public final class InputMethodManager {
+                     + "when the caller has WRITE_SECURE_SETTINGS is deprecated. This behavior may "
+                     + "be completely removed in a future version.  Update secure settings directly "
+                     + "instead.");
++*/
+             final ContentResolver resolver = fallbackContext.getContentResolver();
+             Settings.Secure.putInt(resolver, Settings.Secure.SELECTED_INPUT_METHOD_SUBTYPE,
+                     NOT_A_SUBTYPE_ID);
+-- 
+2.30.0
+
