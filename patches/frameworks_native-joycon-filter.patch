@@ -1,0 +1,20 @@
+diff --git a/services/inputflinger/EventHub.cpp b/services/inputflinger/EventHub.cpp
+index 6e45b3508..45f9662d6 100644
+--- a/services/inputflinger/EventHub.cpp
++++ b/services/inputflinger/EventHub.cpp
+@@ -1327,6 +1327,15 @@ status_t EventHub::openDeviceLocked(const char* devicePath) {
+     // Load the configuration file for the device.
+     loadConfigurationLocked(device);
+ 
++    bool deviceDisabled = false;
++    if (device->configuration && device->configuration->tryGetProperty(String8("device.disabled"), deviceDisabled)) {
++        if (deviceDisabled) {
++            delete device;
++            ALOGV("ignoring disabled device");
++            return -1;
++        }
++    }
++
+     // Figure out the kinds of events the device reports.
+     ioctl(fd, EVIOCGBIT(EV_KEY, sizeof(device->keyBitmask)), device->keyBitmask);
+     ioctl(fd, EVIOCGBIT(EV_ABS, sizeof(device->absBitmask)), device->absBitmask);
