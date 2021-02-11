@@ -91,6 +91,6 @@
 
 	<project name="CM-Shield/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" remote="incom" />
 
-	<project name="CM-Shield/proprietary_vendor_nvidia.git" path="vendor/nvidia" remote="incom" />
+	<project name="CM-Shield/proprietary_vendor_nvidia.git" path="vendor/nvidia" remote="incom" revision="lineage-17.1_20210210"/>
 	<project name="CM-Shield/proprietary_vendor_firmware.git" path="vendor/firmware" remote="incom" />
 </manifest>
