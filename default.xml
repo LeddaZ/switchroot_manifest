@@ -4,93 +4,43 @@
 	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" revision="lineage-17.1" />
 	<remote name="danielo" fetch="https://github.com/DanielOgorchock/" revision="master" />
 
-	<project name="CM-Shield/android_device_google_dragonshield.git" path="device/google/dragonshield" remote="incom" />
-
+	<!-- Device repos -->
 	<project name="CM-Shield/android_device_nintendo_icosa.git" path="device/nintendo/icosa" remote="incom" />
-
-	<project name="CM-Shield/android_device_nvidia_dalmore.git" path="device/nvidia/dalmore" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_roth.git" path="device/nvidia/roth" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_shieldtablet.git" path="device/nvidia/shieldtablet" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_jetson.git" path="device/nvidia/jetson" remote="incom" />
-	<project name="android/android_device_nvidia_foster" path="device/nvidia/foster" remote="switchroot" />
-	<project name="CM-Shield/android_device_nvidia_quill.git" path="device/nvidia/quill" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_galen.git" path="device/nvidia/galen" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_foster_tab.git" path="device/nvidia/foster_tab" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_quill_tab.git" path="device/nvidia/quill_tab" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_galen_tab.git" path="device/nvidia/galen_tab" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_porg.git" path="device/nvidia/porg" remote="incom" />
-
-	<project name="android/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" remote="switchroot" />
-	<project name="CM-Shield/android_device_nvidia_t114-common.git" path="device/nvidia/t114-common" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_t124-common.git" path="device/nvidia/t124-common" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_t186-common.git" path="device/nvidia/t186-common" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_t194-common.git" path="device/nvidia/t194-common" remote="incom" />
-	<project name="android/android_device_nvidia_t210-common" path="device/nvidia/t210-common" remote="switchroot" />
 	<project name="CM-Shield/android_device_nvidia_shield-common.git" path="device/nvidia/shield-common" remote="incom" />
-
-	<project name="CM-Shield/android_device_nvidia_icera.git" path="device/nvidia/icera" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_touch.git" path="device/nvidia/touch" remote="incom" />
 
-	<project name="CM-Shield/android_kernel_nvidia_shield.git" path="kernel/nvidia/shield" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_mainline.git" path="kernel/nvidia/mainline" remote="incom" />
+	<project name="android/android_device_nvidia_foster" path="device/nvidia/foster" remote="switchroot" />
+	<project name="android/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" remote="switchroot" />
+	<project name="android/android_device_nvidia_t210-common" path="device/nvidia/t210-common" remote="switchroot" />
 
-	<project name="kernel/l4t-kernel-4.9.git" path="kernel/nvidia/linux-4.9/kernel/kernel-4.9" remote="switchroot"/>
-	<project name="kernel/l4t-kernel-nvidia.git" path="kernel/nvidia/linux-4.9/kernel/nvidia" remote="switchroot"/>
+	<!-- Kernel repos -->
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_kernel_nvgpu.git" path="kernel/nvidia/linux-4.9/kernel/nvgpu" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_tegra_common.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/tegra/common" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_tegra.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/tegra" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_abca.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/abca" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_common.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/common" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_ers.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/ers" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_foster.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/foster" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_fpga.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/fpga" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_hawkeye.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/hawkeye" remote="incom" />
-	<project name="kernel/l4t-platform-t210-switch.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/icosa" remote="switchroot"/>
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_jetson.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/jetson" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_misc.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/misc" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_orca.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/orca" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_porg.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/porg" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_sim.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/sim" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_smaug.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/smaug" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_vcm.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/vcm" remote="incom" />
 	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t210.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t210" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_abca.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/abca" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_common.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/common" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_darcy.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/darcy" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_ers.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/ers" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_porg.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/porg" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_sif.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/sif" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_common.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t18x/common" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_quill.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t18x/quill" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t18x.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t18x" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_common.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/common" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_bct.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/galen/bct" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_kernel-dts.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/galen/kernel-dts" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_jakku_kernel-dts.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/jakku/kernel-dts" remote="incom" />
-	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t19x.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t19x" remote="incom" />
 
-	<project name="CM-Shield/android_kernel_nvidia_cypress-fmac.git" path="kernel/nvidia/cypress-fmac" remote="incom" />
+	<project name="kernel/l4t-kernel-4.9.git" path="kernel/nvidia/linux-4.9/kernel/kernel-4.9" remote="switchroot"/>
+	<project name="kernel/l4t-kernel-nvidia.git" path="kernel/nvidia/linux-4.9/kernel/nvidia" remote="switchroot"/>
+	<project name="kernel/l4t-platform-t210-switch.git" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/icosa" remote="switchroot"/>
 	<project name="kernel/l4t-kernel-cypress-fmac-upstream.git" path="kernel/nvidia/cypress-fmac-upstream" remote="switchroot" />
 
-	<project name="CM-Shield/android_external_libevdev.git" path="external/libevdev" remote="incom" />
-
-	<project name="joycond.git" path="hardware/nintendo/joycond" remote="danielo" />
-	
-	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO.git" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
-
-	<project name="CM-Shield/android_hardware_nvidia_boot_control.git" path="hardware/nvidia/boot_control" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_interfaces.git" path="hardware/nvidia/interfaces" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_light.git" path="hardware/nvidia/light" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_memtrack.git" path="hardware/nvidia/memtrack" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_power.git" path="hardware/nvidia/power" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_thermal.git" path="hardware/nvidia/thermal" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_sensors.git" path="hardware/nvidia/sensors" remote="incom" />
-
-	<project name="CM-Shield/android_hardware_realtek_libbt.git" path="hardware/realtek/libbt" remote="incom" />
-	<project name="CM-Shield/android_hardware_realtek_wlan.git" path="hardware/realtek/wlan" remote="incom" />
-
+	<!-- Prebuilt repos -->
 	<project name="CM-Shield/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" remote="incom" />
 
+	<!-- External repos -->
+	<project name="CM-Shield/android_external_libevdev.git" path="external/libevdev" remote="incom" />
+	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO.git" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
+	<project name="joycond.git" path="hardware/nintendo/joycond" remote="danielo" />
+
+	<!-- Nvidia hardware repos -->
+	<project name="CM-Shield/android_hardware_nvidia_interfaces.git" path="hardware/nvidia/interfaces" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_light.git" path="hardware/nvidia/light" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_power.git" path="hardware/nvidia/power" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_thermal.git" path="hardware/nvidia/thermal" remote="incom" />
+
+	<!-- Vendor repos -->
 	<project name="CM-Shield/proprietary_vendor_nvidia.git" path="vendor/nvidia" remote="incom" revision="lineage-17.1_20210210"/>
 	<project name="CM-Shield/proprietary_vendor_firmware.git" path="vendor/firmware" remote="incom" />
 </manifest>

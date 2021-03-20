@@ -6,10 +6,10 @@
 
 ### Patching
 Basic:
-* Repopick the `icosa-bt-lineage-17.1`, `nvidia-shieldtech-q`, `nvidia-beyonder-q` topics off of lineage gerrit.
-* Also repopick `300860`, 287339`, `302339`, `302554`, `302959` and `284553`.
-* Apply all patches to their respective directories (from patches folder).
+* Repopick topics `icosa-bt-lineage-17.1`, `nvidia-shieldtech-q`, `nvidia-beyonder-q` off Lineage Gerrit
+* Repopick commits `302554` and `302959` off Lineage Gerrit
+* Apply all patches to their respective directories (from patches folder)
 
 ### Notes
-* Use foster\_tab if you want Nvidia games.
+* Use `foster_tab` if you want Nvidia games.
 
