@@ -1,0 +1,13 @@
+diff --git a/libs/input/PointerController.cpp b/libs/input/PointerController.cpp
+index abf083789c2..33826015abd 100644
+--- a/libs/input/PointerController.cpp
++++ b/libs/input/PointerController.cpp
+@@ -58,7 +58,7 @@ private:
+ // --- PointerController ---
+ 
+ // Time to wait before starting the fade when the pointer is inactive.
+-static const nsecs_t INACTIVITY_TIMEOUT_DELAY_TIME_NORMAL = 15 * 1000 * 1000000LL; // 15 seconds
++static const nsecs_t INACTIVITY_TIMEOUT_DELAY_TIME_NORMAL = 5 * 1000 * 1000000LL; // 5 seconds
+ static const nsecs_t INACTIVITY_TIMEOUT_DELAY_TIME_SHORT = 3 * 1000 * 1000000LL; // 3 seconds
+ 
+ // Time to spend fading out the spot completely.
