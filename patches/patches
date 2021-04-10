@@ -7,3 +7,4 @@
 "frameworks_native-joycon-filter.patch","frameworks/native"
 "system_core-gatekeeper-hack.patch","system/core"
 "vendor_nvidia-bt-fw.patch","vendor/nvidia"
+"hardware_nvidia_inputhook-timeout.patch","hardware/nvidia/inputhook"
