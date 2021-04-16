@@ -9,6 +9,7 @@
 	<project name="CM-Shield/android_device_nvidia_foster_tab.git" path="device/nvidia/foster_tab" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_shield-common.git" path="device/nvidia/shield-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_touch.git" path="device/nvidia/touch" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_sepolicy.git" path="device/nvidia/sepolicy" remote="incom" />
 
 	<project name="android/android_device_nvidia_foster" path="device/nvidia/foster" remote="switchroot" />
 	<project name="android/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" remote="switchroot" />

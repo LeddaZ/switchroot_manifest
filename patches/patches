@@ -1,7 +1,6 @@
 "bionic-intrinsics.patch","bionic"
 "device_lineage_atv-res.patch","device/lineage/atv"
 "device_nvidia_foster_tab-beyonder.patch","device/nvidia/foster_tab"
-"device_nvidia_shield-common-rsmouse-oss.patch","device/nvidia/shield-common"
 "frameworks_base-beyonder-hack.patch","frameworks/base"
 "frameworks_base-rsmouse-timeout.patch","frameworks/base"
 "frameworks_native-joycon-filter.patch","frameworks/native"
