@@ -7,3 +7,5 @@
 "system_core-gatekeeper-hack.patch","system/core"
 "vendor_nvidia-bt-fw.patch","vendor/nvidia"
 "hardware_nvidia_inputhook-timeout.patch","hardware/nvidia/inputhook"
+"vendor_firmware-cb-update.patch","vendor/firmware"
+"vendor_firmware-TEMP-alarmdis.patch","vendor/firmware"
