@@ -1,11 +1,11 @@
 diff --git a/RsMouse.cpp b/RsMouse.cpp
-index f9dc86d..dc6ddc0 100644
+index e15ec23..c9aa365 100644
 --- a/RsMouse.cpp
 +++ b/RsMouse.cpp
 @@ -42,7 +42,7 @@ namespace cursor {
      constexpr float Deadzone{0.1f};
      constexpr float Power{3.0f}; //!< Power for cursor velocity curve
-     constexpr float SpeedCoeffFinal{23.0f}; //! Coefficient for the final output cursor speed
+     constexpr float SpeedCoeffFinal{27.0f}; //! Coefficient for the final output cursor speed
 -    constexpr auto FadeTime{std::chrono::seconds{15}}; //! Maximum time it takes the cursor to fade (should match frameworks/base/libs/input/PointerController.cpp)
 +    constexpr auto FadeTime{std::chrono::seconds{5}}; //! Maximum time it takes the cursor to fade (should match frameworks/base/libs/input/PointerController.cpp)
  }
