@@ -1,0 +1,26 @@
+From 5c0eebde31fe57519c9b083f8fcce1bb2e5fe515 Mon Sep 17 00:00:00 2001
+From: Thomas <halorocker89@gmail.com>
+Date: Fri, 19 Feb 2021 08:39:31 -0500
+Subject: [PATCH] build hack
+
+Change-Id: Ib4cc2cea85e3ae6597f8ee1258f85a6d7bbbb371
+---
+ ui/build/paths/config.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/ui/build/paths/config.go b/ui/build/paths/config.go
+index 57174013..aa9dcaa6 100644
+--- a/ui/build/paths/config.go
++++ b/ui/build/paths/config.go
+@@ -105,7 +105,7 @@ var Configuration = map[string]PathConfig{
+ 	"clang++":    Forbidden,
+ 	"gcc":        Forbidden,
+ 	"g++":        Forbidden,
+-	"ld":         Forbidden,
++	"ld":         Allowed,// HACK
+ 	"ld.bfd":     Forbidden,
+ 	"ld.gold":    Forbidden,
+ 	"pkg-config": Forbidden,
+-- 
+2.27.0
+

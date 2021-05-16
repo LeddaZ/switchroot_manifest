@@ -1,9 +1,9 @@
-# Switch manifest for LineageOS Quorndog
+# Switch manifest for LineageOS Redvelvetcake
 
 ### Patching
 Basic:
-* Repopick topics `icosa-bt-lineage-17.1`, `nvidia-shieldtech-q`, `nvidia-beyonder-q` off Lineage Gerrit
-* Repopick commits `305978` and `307993` off Lineage Gerrit
+* Repopick topics `icosa-bt-r`, `nvidia-shieldtech-r`, `nvidia-beyonder-r`, and `nvidia-nvgpu-r` off Lineage Gerrit
+* Repopick commits `308972` and `304329` off Lineage Gerrit
 * Apply all patches to their respective directories (from patches folder)
 
 ### Products
@@ -13,3 +13,6 @@ Basic:
 ### Notes
 * HWC is forced off for `icosa_sr`
 * Nvidia games current do not work (use GLTools for Shield games)
+* Volume UI broken on `icosa_sr`
+* Nvidia enhancements incomplete
+* Surface rendering glitches

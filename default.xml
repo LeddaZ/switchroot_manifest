@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-17.1" />
-	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" revision="lineage-17.1" />
+	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-18.1" />
+	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" />
 	<remote name="danielo" fetch="https://github.com/DanielOgorchock/" revision="master" />
 
 	<!-- Device repos -->
-	<project name="android/android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="switchroot" />
+	<project name="android/android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="switchroot" revision="lineage-18.1"/>
 	<project name="CM-Shield/android_device_nintendo_icosa_tv_sr" path="device/nintendo/icosa_tv_sr" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_foster" path="device/nvidia/foster" remote="incom" />
-	<project name="LineageOS/android_device_nvidia_shield-common" path="device/nvidia/shield-common" />
-	<project name="LineageOS/android_device_nvidia_foster_tab" path="device/nvidia/foster_tab" />
-	<project name="LineageOS/android_device_nvidia_touch" path="device/nvidia/touch" />
-	<project name="LineageOS/android_device_nvidia_sepolicy" path="device/nvidia/sepolicy" />
-	<project name="LineageOS/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" />
-	<project name="LineageOS/android_device_nvidia_t210-common" path="device/nvidia/t210-common" />
+	<project name="CM-Shield/android_device_nvidia_shield-common" path="device/nvidia/shield-common" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_foster_tab" path="device/nvidia/foster_tab" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_touch" path="device/nvidia/touch" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_sepolicy" path="device/nvidia/sepolicy" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" remote="incom" />
+	<project name="CM-Shield/android_device_nvidia_t210-common" path="device/nvidia/t210-common" remote="incom" />
 
 	<!-- Kernel repos -->
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_kernel_nvgpu" path="kernel/nvidia/linux-4.9_icosa/kernel/nvgpu" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_tegra_common" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/platform/tegra/common" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_tegra" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/soc/tegra" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_abca" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/abca" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_common" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/platform/t210/common" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_ers" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/ers" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_foster" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/foster" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_fpga" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/fpga"/>
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_hawkeye" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/hawkeye" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_jetson" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/jetson" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_misc" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/misc" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_orca" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/orca" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_porg" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/porg" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_sim" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/sim" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_kernel_nvgpu" path="kernel/nvidia/linux-4.9_icosa/kernel/nvgpu" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_tegra_common" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/platform/tegra/common" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_tegra" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/soc/tegra" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_abca" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/abca" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_common" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/platform/t210/common" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_ers" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/ers" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_foster" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/foster" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_fpga" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/fpga" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_hawkeye" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/hawkeye" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_jetson" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/jetson" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_misc" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/misc" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_orca" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/orca" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_porg" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/porg" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_sim" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/sim" remote="incom" />
 	<!-- <project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_smaug" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/smaug" remote="incom" /> -->
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_vcm" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/vcm" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t210" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/soc/t210" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_abca" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/abca" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_common" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/common" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_darcy" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/darcy" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_ers" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/ers" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_porg" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/porg" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_sif" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/sif" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_common" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t18x/common" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_quill" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t18x/quill" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t18x" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t18x" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_common" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/common" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_bct" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/galen/bct" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_kernel-dts" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/galen/kernel-dts" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_jakku_kernel-dts" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/jakku/kernel-dts" />
-	<project name="LineageOS/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t19x" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t19x" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210_vcm" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210/vcm" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t210" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/soc/t210" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_abca" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/abca" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_common" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/common" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_darcy" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/darcy" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_ers" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/ers" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_porg" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/porg" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t210b01_sif" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t210b01/sif" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_common" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t18x/common" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t18x_quill" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t18x/quill" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t18x" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t18x" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_common" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/common" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_bct" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/galen/bct" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_galen_kernel-dts" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/galen/kernel-dts" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_platform_t19x_jakku_kernel-dts" path="kernel/nvidia/linux-4.9/hardware/nvidia/platform/t19x/jakku/kernel-dts" remote="incom" />
+	<project name="CM-Shield/android_kernel_nvidia_linux-4.9_hardware_nvidia_soc_t19x" path="kernel/nvidia/linux-4.9/hardware/nvidia/soc/t19x" remote="incom" />
 
-	<project name="kernel/l4t-kernel-4.9" path="kernel/nvidia/linux-4.9_icosa/kernel/kernel-4.9" remote="switchroot"/>
-	<project name="kernel/l4t-kernel-nvidia" path="kernel/nvidia/linux-4.9_icosa/kernel/nvidia" remote="switchroot"/>
-	<project name="kernel/l4t-platform-t210-switch" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/platform/t210/icosa" remote="switchroot"/>
-	<project name="kernel/l4t-kernel-cypress-fmac-upstream" path="kernel/nvidia/cypress-fmac-upstream" remote="switchroot" />
+	<project name="kernel/l4t-kernel-4.9" path="kernel/nvidia/linux-4.9_icosa/kernel/kernel-4.9" remote="switchroot" revision="lineage-17.1" />
+	<project name="kernel/l4t-kernel-nvidia" path="kernel/nvidia/linux-4.9_icosa/kernel/nvidia" remote="switchroot" revision="lineage-17.1" />
+	<project name="kernel/l4t-platform-t210-switch" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/platform/t210/icosa" remote="switchroot" revision="lineage-17.1" />
+	<project name="kernel/l4t-kernel-cypress-fmac-upstream" path="kernel/nvidia/cypress-fmac-upstream" remote="switchroot" revision="lineage-17.1" />
 
 	<!-- Prebuilt repos -->
-	<project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" />
+	<project name="CM-Shield/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" remote="incom" />
 
 	<!-- External repos -->
 	<project name="CM-Shield/android_external_libevdev" path="external/libevdev" remote="incom" />
-	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
+	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" revision="lineage-18.1" />
 	<project name="joycond" path="hardware/nintendo/joycond" remote="danielo" />
 
 	<!-- Nvidia hardware repos -->
-	<project name="LineageOS/android_hardware_nvidia_interfaces" path="hardware/nvidia/interfaces" />
-	<project name="LineageOS/android_hardware_nvidia_light" path="hardware/nvidia/light" />
-	<project name="LineageOS/android_hardware_nvidia_power" path="hardware/nvidia/power" />
-	<project name="LineageOS/android_hardware_nvidia_thermal" path="hardware/nvidia/thermal" />
-	<project name="android/android_hardware_nvidia_input_hook" path="hardware/nvidia/input_hook" remote="switchroot" />
+	<project name="CM-Shield/android_hardware_nvidia_interfaces" path="hardware/nvidia/interfaces" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_light" path="hardware/nvidia/light" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_power" path="hardware/nvidia/power" remote="incom" />
+	<project name="CM-Shield/android_hardware_nvidia_thermal" path="hardware/nvidia/thermal" remote="incom" />
+	<project name="android/android_hardware_nvidia_input_hook" path="hardware/nvidia/input_hook" remote="switchroot" revision="lineage-17.1" />
 
 	<!-- Vendor repos -->
 	<project name="CM-Shield/proprietary_vendor_nvidia" path="vendor/nvidia" remote="incom" />
