@@ -1,14 +1,4 @@
 "bionic-intrinsics.patch","bionic"
-<<<<<<< HEAD
-"device_lineage_atv-res.patch","device/lineage/atv"
-"frameworks_base-rsmouse-timeout.patch","frameworks/base"
-"frameworks_native-joycon-filter.patch","frameworks/native"
-"system_core-gatekeeper-hack.patch","system/core"
-"vendor_nvidia-bt-fw.patch","vendor/nvidia"
-"hardware_nvidia_inputhook-timeout.patch","hardware/nvidia/input_hook"
-"build_soong-build-HACK.patch","build/soong"
-"device_nvidia_tegra-common-HAX.patch","device/nvidia/tegra-common"
-=======
 "frameworks_base-beyonder-hack.patch","frameworks/base"
 "frameworks_base-rsmouse-timeout.patch","frameworks/base"
 "frameworks_native-joycon-filter.patch","frameworks/native"
@@ -16,4 +6,3 @@
 "hardware_nvidia_inputhook-timeout.patch","hardware/nvidia/input_hook"
 "device_nvidia_tegra-common-HAX.patch","device/nvidia/tegra-common"
 "build_soong-build-HACK.patch","build/soong"
->>>>>>> 07095b1 (Ditch unneeded patches and add atv support)
