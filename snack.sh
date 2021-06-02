@@ -52,7 +52,12 @@ function applyPatches {
 
 function prep {
     export PATCHDIR=$ANDROID_BUILD_TOP/.repo/local_manifests/patches
-    git -C $ANDROID_BUILD_TOP/.repo/local_manifests pull
+
+    if [[ -z $MANIFEST ]];
+    then
+        git -C $ANDROID_BUILD_TOP/.repo/local_manifests pull
+    fi
+
     repo forall -c 'git clean -dxf'
     repo forall -c 'git reset --hard'
 
@@ -81,10 +86,15 @@ do
         echo "Will sync when ready."
         SYNC=true
     fi
-    if [[ $arg == "-n" ]];
+    if [[ "$arg" == "-n" ]];
     then
         echo "Will not sync."
         SYNC=false
+    fi
+    if [[ "$arg" == "--no-pull" ]];
+    then
+        echo "Will not pull latest manifest."
+        MANIFEST=false
     fi
 done
 
