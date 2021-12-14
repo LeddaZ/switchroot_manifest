@@ -2,13 +2,12 @@
 <manifest>
 
 	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-18.1" />
-	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" />
+	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" revision="lineage-18.1" />
 	<remote name="danielo" fetch="https://github.com/DanielOgorchock/" revision="master" />
 
 	<!-- Device repos -->
-	<project name="android/android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="switchroot" revision="lineage-18.1"/>
-	<project name="CM-Shield/android_device_nintendo_icosa_tv_sr" path="device/nintendo/icosa_tv_sr" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_foster" path="device/nvidia/foster" remote="incom" />
+	<project name="android/android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="switchroot" />
+	<project name="android/android_device_nintendo_icosa_tv_sr" path="device/nintendo/icosa_tv_sr" remote="switchroot" />
 	<project name="CM-Shield/android_device_nvidia_shield-common" path="device/nvidia/shield-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_foster_tab" path="device/nvidia/foster_tab" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_touch" path="device/nvidia/touch" remote="incom" />
@@ -59,7 +58,7 @@
 
 	<!-- External repos -->
 	<project name="CM-Shield/android_external_libevdev" path="external/libevdev" remote="incom" />
-	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" revision="lineage-18.1" />
+	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
 	<project name="joycond" path="hardware/nintendo/joycond" remote="danielo" />
 
 	<!-- Nvidia hardware repos -->
@@ -67,7 +66,7 @@
 	<project name="CM-Shield/android_hardware_nvidia_light" path="hardware/nvidia/light" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_power" path="hardware/nvidia/power" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_thermal" path="hardware/nvidia/thermal" remote="incom" />
-	<project name="android/android_hardware_nvidia_input_hook" path="hardware/nvidia/input_hook" remote="switchroot" revision="lineage-17.1" />
+	<!--<project name="android/android_hardware_nvidia_input_hook" path="hardware/nvidia/input_hook" remote="switchroot" revision="lineage-17.1" />-->
 
 	<!-- Vendor repos -->
 	<project name="CM-Shield/proprietary_vendor_nvidia" path="vendor/nvidia" remote="incom" />
