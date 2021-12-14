@@ -1,0 +1,3 @@
+[submodule "snack"]
+	path = snack
+	url = https://github.com/makinbacon21/snack.git
