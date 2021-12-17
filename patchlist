@@ -3,6 +3,5 @@
 "frameworks_base-rsmouse-timeout.patch","frameworks/base"
 "frameworks_native-joycon-filter.patch","frameworks/native"
 "system_core-gatekeeper-hack.patch","system/core"
-"hardware_nvidia_inputhook-timeout.patch","hardware/nvidia/input_hook"
 "device_nvidia_tegra-common-HAX.patch","device/nvidia/tegra-common"
 "build_soong-build-HACK.patch","build/soong"
