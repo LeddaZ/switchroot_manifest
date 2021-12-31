@@ -2,3 +2,4 @@
 "frameworks_base-beyonder-hack.patch","frameworks/base"
 "frameworks_base-rsmouse-timeout.patch","frameworks/base"
 "frameworks_native-joycon-filter.patch","frameworks/native"
+"hardware_interfaces-audio-mix.patch","hardware/interfaces"
