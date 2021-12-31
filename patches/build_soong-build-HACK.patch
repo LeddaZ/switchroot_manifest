@@ -1,18 +1,18 @@
-From 5c0eebde31fe57519c9b083f8fcce1bb2e5fe515 Mon Sep 17 00:00:00 2001
-From: Thomas <halorocker89@gmail.com>
-Date: Fri, 19 Feb 2021 08:39:31 -0500
-Subject: [PATCH] build hack
+From 9c25f264c30df6441a2411517e7037f38caac474 Mon Sep 17 00:00:00 2001
+From: Thomas Makin <halorocker89@gmail.com>
+Date: Fri, 31 Dec 2021 02:17:05 +0000
+Subject: [PATCH] HACK: Allow perl and ld
 
-Change-Id: Ib4cc2cea85e3ae6597f8ee1258f85a6d7bbbb371
+Change-Id: I7d323a0bf99d718f96a9f0d680d5fbdc14baab5f
 ---
- ui/build/paths/config.go | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ ui/build/paths/config.go | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/ui/build/paths/config.go b/ui/build/paths/config.go
-index 57174013..aa9dcaa6 100644
+index ed382a5b6..406d19b3f 100644
 --- a/ui/build/paths/config.go
 +++ b/ui/build/paths/config.go
-@@ -105,7 +105,7 @@ var Configuration = map[string]PathConfig{
+@@ -106,9 +106,10 @@ var Configuration = map[string]PathConfig{
  	"clang++":    Forbidden,
  	"gcc":        Forbidden,
  	"g++":        Forbidden,
@@ -20,7 +20,10 @@ index 57174013..aa9dcaa6 100644
 +	"ld":         Allowed,// HACK
  	"ld.bfd":     Forbidden,
  	"ld.gold":    Forbidden,
++	"perl":		  Allowed,// HACK
  	"pkg-config": Forbidden,
+ 
+ 	// These are toybox tools that only work on Linux.
 -- 
-2.27.0
+2.32.0
 
