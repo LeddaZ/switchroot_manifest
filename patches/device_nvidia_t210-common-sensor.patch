@@ -1,0 +1,27 @@
+From 047106605b0ac543683878b7e469241d2179fffb Mon Sep 17 00:00:00 2001
+From: Billy Laws <blaws05@gmail.com>
+Date: Sat, 1 Jan 2022 22:17:30 +0000
+Subject: [PATCH] uevent: Add ALS sensor perms
+
+---
+ initfiles/ueventd.t210ref.rc | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/initfiles/ueventd.t210ref.rc b/initfiles/ueventd.t210ref.rc
+index f43072d..fec2879 100644
+--- a/initfiles/ueventd.t210ref.rc
++++ b/initfiles/ueventd.t210ref.rc
+@@ -176,6 +176,10 @@
+ #tilt sensor
+ /sys/bus/iio/devices/iio:device* scan_elements/in_tilt_en 0660 system system
+ 
++#ambient light sensor
++/sys/bus/iio/devices/iio:device* in_illuminance_integration_time 0660 system system
++/sys/bus/iio/devices/iio:device* in_illuminance_input 0660 system system
++
+ /sys/devices/nvs_dsm/iio:device*		enable					0660	system	system
+ /sys/devices/nvs_dsm/iio:device*		buffer/enable				0660	system	system
+ /sys/devices/nvs_dsm/iio:device*		buffer/length				0660	system	system
+-- 
+2.34.1
+

@@ -1,5 +1,6 @@
 "build_soong-build-HACK.patch","build/soong"
 "frameworks_base-beyonder-hack.patch","frameworks/base"
+"device_nvidia_t210-common-sensor.patch","device/nvidia/t210-common"
 "frameworks_base-rsmouse-timeout.patch","frameworks/base"
 "frameworks_native-joycon-filter.patch","frameworks/native"
 "hardware_interfaces-audio-mix.patch","hardware/interfaces"
