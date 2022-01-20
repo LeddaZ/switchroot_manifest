@@ -70,5 +70,5 @@
 
 	<!-- Vendor repos -->
 	<project name="CM-Shield/proprietary_vendor_nvidia" path="vendor/nvidia" remote="incom" />
-	<!--<project name="CM-Shield/proprietary_vendor_firmware" path="vendor/firmware" remote="incom" />-->
+	<project name="android/android_vendor_switchroot" path="vendor/switchroot" remote="switchroot" />
 </manifest>
