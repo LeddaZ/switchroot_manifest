@@ -50,7 +50,7 @@
 
 	<project name="kernel/l4t-kernel-4.9" path="kernel/nvidia/linux-4.9_icosa/kernel/kernel-4.9" remote="switchroot" revision="lineage-17.1" />
 	<project name="kernel/l4t-kernel-nvidia" path="kernel/nvidia/linux-4.9_icosa/kernel/nvidia" remote="switchroot" revision="lineage-17.1" />
-	<project name="kernel/l4t-platform-t210-switch" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/platform/t210/icosa" remote="switchroot" revision="lineage-17.1" />
+	<project name="kernel/l4t-platform-t210-switch" path="kernel/nvidia/linux-4.9_icosa/hardware/nvidia/platform/t210/icosa" remote="switchroot" />
 	<project name="kernel/l4t-kernel-cypress-fmac-upstream" path="kernel/nvidia/cypress-fmac-upstream" remote="switchroot" />
 
 	<!-- Prebuilt repos -->
