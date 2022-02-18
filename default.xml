@@ -22,7 +22,7 @@
 	<project name="CM-Shield/android_hardware_nvidia_platform_t210_common" path="hardware/nvidia/platform/t210/common" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_soc_t210" path="hardware/nvidia/soc/t210" remote="incom" />
 	<project name="kernel/l4t-kernel-4.9" path="kernel/nvidia/kernel-4.9" remote="switchroot" />
-	<project name="kernel/l4t-kernel-nvidia" path="kernel/nvidia/nvidia" remote="switchroot" revision="lineage-17.1" />
+	<project name="kernel/l4t-kernel-nvidia" path="kernel/nvidia/nvidia" remote="switchroot" />
 	<project name="kernel/l4t-platform-t210-switch" path="hardware/nvidia/platform/t210/icosa" remote="switchroot" />
 	<project name="kernel/l4t-kernel-cypress-fmac-upstream" path="kernel/nvidia/cypress-fmac-upstream" remote="switchroot" />
 
