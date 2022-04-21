@@ -34,7 +34,7 @@
 	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
 	<project name="joycond" path="hardware/nintendo/joycond" remote="danielo" />
 
-	<!-- Nvidia hardware repos -->
+	<!-- Hardware repos -->
 	<project name="CM-Shield/android_hardware_nvidia_interfaces" path="hardware/nvidia/interfaces" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_light" path="hardware/nvidia/light" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_power" path="hardware/nvidia/power" remote="incom" />
@@ -42,6 +42,7 @@
 	<!--<project name="android/android_hardware_nvidia_input_hook" path="hardware/nvidia/input_hook" remote="switchroot" revision="lineage-17.1" />-->
 
 	<!-- Vendor repos -->
-	<project name="CM-Shield/proprietary_vendor_nvidia" path="vendor/nvidia" remote="incom" />
+	<project name="TheMuppets/proprietary_vendor_nvidia" path="vendor/nvidia" />
+	<project name="android/proprietary_vendor_firmware" path="vendor/firmware" remote="switchroot" />
 	<project name="android/android_vendor_switchroot" path="vendor/switchroot" remote="switchroot" />
 </manifest>
