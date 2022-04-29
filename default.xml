@@ -31,7 +31,8 @@
 
 	<!-- External repos -->
 	<project name="CM-Shield/android_external_libevdev" path="external/libevdev" remote="incom" />
-	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
+	<project name="android/android_hardware_st-mems-android-linux-sensors-hal" path="hardware/STMicroElectronics/SensorHAL_IIO_2_0" remote="switchroot" />
+	<project name="android/android_hardware_stmicroelectronics_sensorhal_iio" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
 	<project name="joycond" path="hardware/nintendo/joycond" remote="danielo" />
 
 	<!-- Hardware repos -->
