@@ -4,10 +4,11 @@
 	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-18.1" />
 	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" revision="lineage-18.1" />
 	<remote name="danielo" fetch="https://github.com/DanielOgorchock/" revision="master" />
+	<remote name="bacon" fetch="https://gitlab.thomasmak.in/switchroot-staging" revision="lineage-18.1" />
 
 	<!-- Device repos -->
-	<project name="android/android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="switchroot" />
-	<project name="android/android_device_nintendo_icosa_tv_sr" path="device/nintendo/icosa_tv_sr" remote="switchroot" />
+	<project name="android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="bacon" />
+	<project name="android_device_nintendo_icosa_tv_sr" path="device/nintendo/icosa_tv_sr" remote="bacon" />
 	<project name="CM-Shield/android_device_nvidia_shield-common" path="device/nvidia/shield-common" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_foster_tab" path="device/nvidia/foster_tab" remote="incom" />
 	<project name="CM-Shield/android_device_nvidia_touch" path="device/nvidia/touch" remote="incom" />
@@ -31,8 +32,8 @@
 
 	<!-- External repos -->
 	<project name="CM-Shield/android_external_libevdev" path="external/libevdev" remote="incom" />
-	<project name="android/android_hardware_st-mems-android-linux-sensors-hal" path="hardware/STMicroElectronics/SensorHAL_IIO_2_0" remote="switchroot" />
-	<project name="android/android_hardware_stmicroelectronics_sensorhal_iio" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
+	<project name="android_hardware_st-mems-android-linux-sensors-hal" path="hardware/STMicroElectronics/SensorHAL_IIO_2_0" remote="bacon" />
+	<project name="android_hardware_st-mems-android-linux-sensors-hal" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="bacon" />
 	<project name="joycond" path="hardware/nintendo/joycond" remote="danielo" />
 
 	<!-- Hardware repos -->
