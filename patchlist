@@ -1,4 +1,3 @@
 "build_soong-build-HACK.patch","build/soong"
 "frameworks_base-rsmouse-timeout.patch","frameworks/base"
 "frameworks_native-joycon-filter.patch","frameworks/native"
-"hardware_nvidia_inputhook-timeout.patch","hardware/nvidia/input_hook"
