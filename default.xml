@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-18.1" />
-	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" revision="lineage-18.1" />
+	<remote name="incom" fetch="https://gitlab.incom.co/" revision="lineage-19.1" />
+	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" revision="lineage-19.1" />
 	<remote name="danielo" fetch="https://github.com/DanielOgorchock/" revision="master" />
-	<remote name="bacon" fetch="https://gitlab.thomasmak.in/switchroot-staging" revision="lineage-18.1" />
+	<remote name="bacon" fetch="https://gitlab.thomasmak.in/switchroot-staging" revision="lineage-19.1" />
 
 	<!-- Device repos -->
 	<project name="android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="bacon" />
@@ -22,18 +22,17 @@
 	<project name="CM-Shield/android_hardware_nvidia_soc_tegra" path="hardware/nvidia/soc/tegra" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_platform_t210_common" path="hardware/nvidia/platform/t210/common" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_soc_t210" path="hardware/nvidia/soc/t210" remote="incom" />
-	<project name="kernel/l4t-kernel-4.9" path="kernel/nvidia/kernel-4.9-icosa" remote="switchroot" />
-	<project name="kernel/l4t-kernel-nvidia" path="kernel/nvidia/nvidia" remote="switchroot" />
-	<project name="kernel/l4t-platform-t210-switch" path="hardware/nvidia/platform/t210/icosa" remote="switchroot" />
-	<project name="kernel/l4t-kernel-cypress-fmac-upstream" path="kernel/nvidia/cypress-fmac-upstream" remote="switchroot" />
+	<project name="kernel/l4t-kernel-4.9" path="kernel/nvidia/kernel-4.9-icosa" remote="switchroot" revision="lineage-18.1" />
+	<project name="kernel/l4t-kernel-nvidia" path="kernel/nvidia/nvidia" remote="switchroot" revision="lineage-18.1" />
+	<project name="kernel/l4t-platform-t210-switch" path="hardware/nvidia/platform/t210/icosa" remote="switchroot" revision="lineage-18.1" />
+	<project name="kernel/l4t-kernel-cypress-fmac-upstream" path="kernel/nvidia/cypress-fmac-upstream" remote="switchroot" revision="lineage-18.1" />
 
 	<!-- Prebuilt repos -->
 	<project name="CM-Shield/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.4.1" remote="incom" />
 
 	<!-- External repos -->
 	<project name="CM-Shield/android_external_libevdev" path="external/libevdev" remote="incom" />
-	<project name="android_hardware_st-mems-android-linux-sensors-hal" path="hardware/STMicroElectronics/SensorHAL_IIO_2_0" remote="bacon" />
-	<project name="android_hardware_st-mems-android-linux-sensors-hal" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="bacon" />
+	<project name="android_hardware_st-mems-android-linux-sensors-hal" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="bacon" revision="lineage-18.1" />
 	<project name="joycond" path="hardware/nintendo/joycond" remote="danielo" />
 
 	<!-- Hardware repos -->
@@ -45,6 +44,6 @@
 
 	<!-- Vendor repos -->
 	<project name="TheMuppets/proprietary_vendor_nvidia" path="vendor/nvidia" />
-	<project name="android/proprietary_vendor_firmware" path="vendor/firmware" remote="switchroot" />
-	<project name="android/android_vendor_switchroot" path="vendor/switchroot" remote="switchroot" />
+	<project name="android/proprietary_vendor_firmware" path="vendor/firmware" remote="switchroot" revision="lineage-18.1" />
+	<project name="android/android_vendor_switchroot" path="vendor/switchroot" remote="switchroot" revision="lineage-18.1" />
 </manifest>
