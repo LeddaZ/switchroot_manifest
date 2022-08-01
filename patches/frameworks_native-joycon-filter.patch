@@ -1,18 +1,23 @@
-From 45af43c7e90992affc30b058690c4a544c243ba8 Mon Sep 17 00:00:00 2001
-From: Thomas <halorocker89@gmail.com>
-Date: Fri, 19 Feb 2021 08:37:50 -0500
-Subject: [PATCH] joycon filter patch
+From ec8e573d64659c49c7bb45f00fdcce27a3a9efe0 Mon Sep 17 00:00:00 2001
+From: Billy Laws <blaws05@gmail.com>
+Date: Mon, 1 Aug 2022 00:03:36 -0400
+Subject: [PATCH] inputflinger: filter inputs of disabled devices
 
-Change-Id: I226f4d24a7d0cf894d0f3af1db5ccb44379a9fca
+Some controllers like the Nintendo JoyCons should only have
+inputs read when enabled, allowing vendor-provided configs to
+disable the controller under various conditions (i.e. only one
+JoyCon is connected)
+
+Change-Id: I4aa044daf530e64e927a86f40585a287ada7922b
 ---
- services/inputflinger/reader/EventHub.cpp | 10 ++++++++++
- 1 file changed, 10 insertions(+)
+ services/inputflinger/reader/EventHub.cpp | 9 +++++++++
+ 1 file changed, 9 insertions(+)
 
 diff --git a/services/inputflinger/reader/EventHub.cpp b/services/inputflinger/reader/EventHub.cpp
-index a1514af66..730d71d93 100644
+index a1514af668..cb3ba7bb48 100644
 --- a/services/inputflinger/reader/EventHub.cpp
 +++ b/services/inputflinger/reader/EventHub.cpp
-@@ -1305,6 +1305,16 @@ status_t EventHub::openDeviceLocked(const char* devicePath) {
+@@ -1305,6 +1305,15 @@ status_t EventHub::openDeviceLocked(const char* devicePath) {
      // Load the configuration file for the device.
      loadConfigurationLocked(device);
  
@@ -25,10 +30,9 @@ index a1514af66..730d71d93 100644
 +        }
 +    }
 +
-+
      // Figure out the kinds of events the device reports.
      ioctl(fd, EVIOCGBIT(EV_KEY, sizeof(device->keyBitmask)), device->keyBitmask);
      ioctl(fd, EVIOCGBIT(EV_ABS, sizeof(device->absBitmask)), device->absBitmask);
 -- 
-2.27.0
+2.37.1
 
