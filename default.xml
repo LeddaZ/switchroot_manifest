@@ -9,19 +9,20 @@
 	<!-- Device repos -->
 	<project name="android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="bacon" />
 	<project name="android_device_nintendo_icosa_tv_sr" path="device/nintendo/icosa_tv_sr" remote="bacon" />
-	<project name="CM-Shield/android_device_nvidia_shield-common" path="device/nvidia/shield-common" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_foster_tab" path="device/nvidia/foster_tab" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_touch" path="device/nvidia/touch" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_sepolicy" path="device/nvidia/sepolicy" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" remote="incom" />
-	<project name="CM-Shield/android_device_nvidia_t210-common" path="device/nvidia/t210-common" remote="incom" />
+	<project name="npjohnson/android_device_nintendo_nx" path="device/nintendo/nx" />
+	<project name="LineageOS/android_device_nvidia_shield-common" path="device/nvidia/shield-common" />
+	<project name="LineageOS/android_device_nvidia_foster_tab" path="device/nvidia/foster_tab" />
+	<project name="LineageOS/android_device_nvidia_touch" path="device/nvidia/touch" />
+	<project name="LineageOS/android_device_nvidia_sepolicy" path="device/nvidia/sepolicy" />
+	<project name="LineageOS/android_device_nvidia_tegra-common" path="device/nvidia/tegra-common" />
+	<project name="LineageOS/android_device_nvidia_t210-common" path="device/nvidia/t210-common" />
 
 	<!-- Kernel repos -->
 	<project name="LineageOS/android_kernel_nvidia_nvgpu" path="kernel/nvidia/nvgpu" />
-	<project name="CM-Shield/android_hardware_nvidia_platform_tegra_common" path="hardware/nvidia/platform/tegra/common" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_soc_tegra" path="hardware/nvidia/soc/tegra" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_platform_t210_common" path="hardware/nvidia/platform/t210/common" remote="incom" />
-	<project name="CM-Shield/android_hardware_nvidia_soc_t210" path="hardware/nvidia/soc/t210" remote="incom" />
+	<project name="LineageOS/android_hardware_nvidia_platform_tegra_common" path="hardware/nvidia/platform/tegra/common" />
+	<project name="LineageOS/android_hardware_nvidia_soc_tegra" path="hardware/nvidia/soc/tegra" />
+	<project name="LineageOS/android_hardware_nvidia_platform_t210_common" path="hardware/nvidia/platform/t210/common" />
+	<project name="LineageOS/android_hardware_nvidia_soc_t210" path="hardware/nvidia/soc/t210" />
 	<project name="kernel/l4t-kernel-4.9" path="kernel/nvidia/kernel-4.9-icosa" remote="switchroot" />
 	<project name="kernel/l4t-kernel-nvidia" path="kernel/nvidia/nvidia" remote="switchroot" />
 	<project name="kernel/l4t-platform-t210-switch" path="hardware/nvidia/platform/t210/icosa" remote="switchroot" />
@@ -33,7 +34,7 @@
 
 	<!-- External repos -->
 	<project name="CM-Shield/android_external_libevdev" path="external/libevdev" remote="incom" />
-	<project name="android_hardware_st-mems-android-linux-sensors-hal" path="hardware/STMicroElectronics/SensorHAL_IIO_2_0" remote="bacon" />
+	<!--<project name="android_hardware_st-mems-android-linux-sensors-hal" path="hardware/STMicroElectronics/SensorHAL_IIO_2_0" remote="bacon" />-->
 	<project name="android/android_hardware_STMicroElectronics_SensorHAL_IIO" path="hardware/STMicroElectronics/SensorHAL_IIO" remote="switchroot" />
 	<project name="joycond" path="hardware/nintendo/joycond" remote="danielo" />
 
@@ -48,4 +49,5 @@
 	<project name="CM-Shield/proprietary_vendor_nvidia" path="vendor/nvidia" remote="incom" />
 	<project name="android/proprietary_vendor_firmware" path="vendor/firmware" remote="switchroot" />
 	<project name="android/android_vendor_switchroot" path="vendor/switchroot" remote="switchroot" />
+	<project name="android_vendor_nintendo" path="vendor/nintendo" remote="bacon" />
 </manifest>
