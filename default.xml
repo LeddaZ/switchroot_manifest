@@ -43,7 +43,7 @@
 	<project name="CM-Shield/android_hardware_nvidia_light" path="hardware/nvidia/light" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_power" path="hardware/nvidia/power" remote="incom" />
 	<project name="CM-Shield/android_hardware_nvidia_thermal" path="hardware/nvidia/thermal" remote="incom" />
-	<!--<project name="android/android_hardware_nvidia_input_hook" path="hardware/nvidia/input_hook" remote="switchroot" revision="lineage-17.1" />-->
+	<project name="android/android_hardware_nvidia_input_hook" path="hardware/nvidia/input_hook" remote="switchroot" />
 
 	<!-- Vendor repos -->
 	<project name="CM-Shield/proprietary_vendor_nvidia" path="vendor/nvidia" remote="incom" />
