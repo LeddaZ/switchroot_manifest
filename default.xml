@@ -5,6 +5,7 @@
 	<remote name="switchroot" fetch="https://gitlab.com/switchroot/" revision="lineage-18.1" />
 	<remote name="danielo" fetch="https://github.com/DanielOgorchock/" revision="master" />
 	<remote name="bacon" fetch="https://gitlab.thomasmak.in/switchroot-staging" revision="lineage-18.1" />
+	<remote name="gitlab" fetch="https://gitlab.com/" revision="lineage-18.1" />
 
 	<!-- Device repos -->
 	<project name="android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="bacon" />
@@ -23,7 +24,7 @@
 	<project name="LineageOS/android_hardware_nvidia_soc_tegra" path="hardware/nvidia/soc/tegra" />
 	<project name="LineageOS/android_hardware_nvidia_platform_t210_common" path="hardware/nvidia/platform/t210/common" />
 	<project name="LineageOS/android_hardware_nvidia_soc_t210" path="hardware/nvidia/soc/t210" />
-	<project name="kernel/l4t-kernel-4.9" path="kernel/nvidia/kernel-4.9-nx" remote="switchroot" />
+	<project name="LeddaZ/l4t-kernel-4.9" path="kernel/nvidia/kernel-4.9-nx" remote="gitlab" />
 	<project name="kernel/l4t-kernel-nvidia" path="kernel/nvidia/nvidia" remote="switchroot" />
 	<project name="kernel/l4t-platform-t210-switch" path="hardware/nvidia/platform/t210/icosa" remote="switchroot" />
 	<project name="kernel/l4t-kernel-cypress-fmac-upstream" path="kernel/nvidia/cypress-fmac-upstream" remote="switchroot" />
