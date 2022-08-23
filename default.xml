@@ -9,7 +9,7 @@
 	<!-- Device repos -->
 	<project name="android_device_nintendo_icosa_sr" path="device/nintendo/icosa_sr" remote="bacon" />
 	<project name="android_device_nintendo_icosa_tv_sr" path="device/nintendo/icosa_tv_sr" remote="bacon" />
-	<project name="npjohnson/android_device_nintendo_nx" path="device/nintendo/nx" />
+	<project name="LeddaZ/android_device_nintendo_nx" path="device/nintendo/nx" />
 	<project name="LineageOS/android_device_nvidia_shield-common" path="device/nvidia/shield-common" />
 	<project name="LineageOS/android_device_nvidia_foster_tab" path="device/nvidia/foster_tab" />
 	<project name="LineageOS/android_device_nvidia_touch" path="device/nvidia/touch" />
